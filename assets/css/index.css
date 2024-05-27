@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgb(35, 113, 165), rgb(158, 76, 28));
+    color: rgb(163, 161, 161);
+}
+
+#bodydiv{
+    height: calc(100vh - 0px);
+    width: 100%;
+    background: linear-gradient(rgba(35, 113, 165), rgba(158, 76, 28));
+}
+
+#emaillabel{
+    margin: 10px;
+}
+
+a{
+    margin: 10px;
+    float: right;
+}
+
+input{
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+button, input[type="submit"]{
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    font-weight: 700;
+    background: rgba(211, 111, 17, 0.7);
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+}
+
+button:hover, input[type="submit"]:hover{
+    background: rgb(211, 111, 17);
+}
+
+#maindiv{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+#headdiv{
+    text-align: center;
+}
+
+#senderdiv{
+    width: 780px;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#senderemail, #senderpassword{
+    width: 49%;
+}
+
+#middiv{
+    margin-top: 5px;
+    width: 780px;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#subject{
+    width: 99%;
+}
+
+#maintext{
+    margin-top: 5px;
+    width: 99%;
+    height: 120px;
+    max-width: 99%;
+    max-height: 140px;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#recieverdiv, #attachmentdiv{
+    margin-top: 5px;
+    width: 780px;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#attachmentsinput{
+    width: 99%;
+    margin-top: 5px;
+}
+
+#searchemail{
+    margin-top: 5px;
+    width: 99%;
+}
+
+#reciepentstable{
+    color: rgb(163, 161, 161);
+}
+
+#reciepentstable tr{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#tablesscrolldiv{
+    width: 99%;
+    max-height: 140px;
+    overflow-x: auto;
+}
+
+#buttonsdiv{
+    margin-top: 5px;
+    width: 780px;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#blockdiv{
+    visibility: hidden;
+    position: absolute;
+    margin-top: -20px;
+    width: 100%;
+    height: calc(100vh - 0px);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#processdiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 11px;
+}
+
+#process{
+    width: 2%;
+    height: 22px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+}
